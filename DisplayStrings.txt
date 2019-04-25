@@ -1,0 +1,8 @@
+/* 
+   strings.txt
+   hunter
+
+   Created by AAA on 11-7-3.
+   Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
+Touch to unpause

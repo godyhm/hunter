@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0010764B198CBC5C00388156 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0010764A198CBC5C00388156 /* Default-568h@2x.png */; };
+		0010764D198CBE9700388156 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 0010764C198CBE9700388156 /* ball.png */; };
+		0010764F198CBEAF00388156 /* explosion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0010764E198CBEAF00388156 /* explosion1.png */; };
+		00107651198CBEC100388156 /* explosion2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00107650198CBEC100388156 /* explosion2.png */; };
+		00107653198CBED000388156 /* explosion3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00107652198CBED000388156 /* explosion3.png */; };
+		1D3623260D0F684500981E51 /* hunterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* hunterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		841204E513B5E782004600C3 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491F89F13B10345004F48B0 /* Ball.m */; };
+		848625E113B8E445006CE125 /* HunterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848625E013B8E445006CE125 /* HunterView.m */; };
+		848626F513B8EF78006CE125 /* HunterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848626F413B8EF78006CE125 /* HunterViewController.m */; };
+		8486334413C0B11300CACBA8 /* DisplayStrings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8486334313C0B11300CACBA8 /* DisplayStrings.txt */; };
+		849115A013B37C6700A10D7B /* AnimatingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491159F13B37C6700A10D7B /* AnimatingLine.m */; };
+		849115E113B38C0F00A10D7B /* DirectionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 849115E013B38C0F00A10D7B /* DirectionPoint.m */; };
+		8491161413B38F4900A10D7B /* BallEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491161313B38F4900A10D7B /* BallEngine.m */; };
+		8491162013B3948D00A10D7B /* BallRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491161F13B3948D00A10D7B /* BallRegion.m */; };
+		84A60C6613C95F2800116831 /* DialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A60C6513C95F2800116831 /* DialogView.m */; };
+		84AC4B8D13BF831E00608A6D /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC4B8C13BF831E00608A6D /* Explosion.m */; };
+		84CECB3913BB98CB00A745C4 /* HunterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CECB3813BB98CB00A745C4 /* HunterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0010764A198CBC5C00388156 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0010764C198CBE9700388156 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		0010764E198CBEAF00388156 /* explosion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion1.png; sourceTree = "<group>"; };
+		00107650198CBEC100388156 /* explosion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion2.png; sourceTree = "<group>"; };
+		00107652198CBED000388156 /* explosion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion3.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* hunterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* hunterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hunterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* hunter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunter_Prefix.pch; sourceTree = "<group>"; };
+		848625DF13B8E445006CE125 /* HunterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunterView.h; sourceTree = "<group>"; };
+		848625E013B8E445006CE125 /* HunterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunterView.m; sourceTree = "<group>"; };
+		848626F313B8EF78006CE125 /* HunterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunterViewController.h; sourceTree = "<group>"; };
+		848626F413B8EF78006CE125 /* HunterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunterViewController.m; sourceTree = "<group>"; };
+		8486334313C0B11300CACBA8 /* DisplayStrings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DisplayStrings.txt; sourceTree = "<group>"; };
+		84883B1913BA341700E5AE82 /* BallEngineDeleGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallEngineDeleGate.h; sourceTree = "<group>"; };
+		84899D8113C9FA6700A238E2 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		848BED8613B0D535009B0A4C /* Shape2DDeleGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape2DDeleGate.h; sourceTree = "<group>"; };
+		8491159E13B37C6700A10D7B /* AnimatingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatingLine.h; sourceTree = "<group>"; };
+		8491159F13B37C6700A10D7B /* AnimatingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatingLine.m; sourceTree = "<group>"; };
+		849115A213B3831400A10D7B /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		849115DF13B38C0F00A10D7B /* DirectionPoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = DirectionPoint.h; sourceTree = "<group>"; };
+		849115E013B38C0F00A10D7B /* DirectionPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionPoint.m; sourceTree = "<group>"; };
+		8491160F13B38EFB00A10D7B /* BallEventDeleGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallEventDeleGate.h; sourceTree = "<group>"; };
+		8491161213B38F4900A10D7B /* BallEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallEngine.h; sourceTree = "<group>"; };
+		8491161313B38F4900A10D7B /* BallEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallEngine.m; sourceTree = "<group>"; };
+		8491161E13B3948D00A10D7B /* BallRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallRegion.h; sourceTree = "<group>"; };
+		8491161F13B3948D00A10D7B /* BallRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallRegion.m; sourceTree = "<group>"; };
+		8491162513B3A89600A10D7B /* NewGameDeleGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameDeleGate.h; sourceTree = "<group>"; };
+		8491F89E13B10345004F48B0 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		8491F89F13B10345004F48B0 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		84A60C6413C95F2800116831 /* DialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogView.h; sourceTree = "<group>"; };
+		84A60C6513C95F2800116831 /* DialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogView.m; sourceTree = "<group>"; };
+		84AC4B8B13BF831E00608A6D /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		84AC4B8C13BF831E00608A6D /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
+		84CECB0413BB948400A745C4 /* English */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = English; path = English.lproj/HunterViewController.xib; sourceTree = "<group>"; wrapsLines = 0; };
+		84D2B9DA13C8659B0050E491 /* ActionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionMode.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* hunter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hunter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* hunterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* hunterAppDelegate.m */,
+				848BED8613B0D535009B0A4C /* Shape2DDeleGate.h */,
+				8491F89E13B10345004F48B0 /* Ball.h */,
+				8491F89F13B10345004F48B0 /* Ball.m */,
+				8491159E13B37C6700A10D7B /* AnimatingLine.h */,
+				8491159F13B37C6700A10D7B /* AnimatingLine.m */,
+				849115A213B3831400A10D7B /* Direction.h */,
+				849115DF13B38C0F00A10D7B /* DirectionPoint.h */,
+				849115E013B38C0F00A10D7B /* DirectionPoint.m */,
+				8491160F13B38EFB00A10D7B /* BallEventDeleGate.h */,
+				8491161213B38F4900A10D7B /* BallEngine.h */,
+				8491161313B38F4900A10D7B /* BallEngine.m */,
+				8491161E13B3948D00A10D7B /* BallRegion.h */,
+				8491161F13B3948D00A10D7B /* BallRegion.m */,
+				8491162513B3A89600A10D7B /* NewGameDeleGate.h */,
+				848625DF13B8E445006CE125 /* HunterView.h */,
+				848625E013B8E445006CE125 /* HunterView.m */,
+				848626F313B8EF78006CE125 /* HunterViewController.h */,
+				848626F413B8EF78006CE125 /* HunterViewController.m */,
+				84883B1913BA341700E5AE82 /* BallEngineDeleGate.h */,
+				84AC4B8B13BF831E00608A6D /* Explosion.h */,
+				84AC4B8C13BF831E00608A6D /* Explosion.m */,
+				84D2B9DA13C8659B0050E491 /* ActionMode.h */,
+				84A60C6413C95F2800116831 /* DialogView.h */,
+				84A60C6513C95F2800116831 /* DialogView.m */,
+				84899D8113C9FA6700A238E2 /* Constant.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* hunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0010764A198CBC5C00388156 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* hunter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00107652198CBED000388156 /* explosion3.png */,
+				00107650198CBEC100388156 /* explosion2.png */,
+				0010764E198CBEAF00388156 /* explosion1.png */,
+				0010764C198CBE9700388156 /* ball.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* hunter-Info.plist */,
+				84CECB3813BB98CB00A745C4 /* HunterViewController.xib */,
+				8486334313C0B11300CACBA8 /* DisplayStrings.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* hunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "hunter" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hunter;
+			productName = hunter;
+			productReference = 1D6058910D05DD3D006BFB54 /* hunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* hunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				0010764B198CBC5C00388156 /* Default-568h@2x.png in Resources */,
+				00107651198CBEC100388156 /* explosion2.png in Resources */,
+				0010764D198CBE9700388156 /* ball.png in Resources */,
+				84CECB3913BB98CB00A745C4 /* HunterViewController.xib in Resources */,
+				8486334413C0B11300CACBA8 /* DisplayStrings.txt in Resources */,
+				0010764F198CBEAF00388156 /* explosion1.png in Resources */,
+				00107653198CBED000388156 /* explosion3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* hunterAppDelegate.m in Sources */,
+				849115A013B37C6700A10D7B /* AnimatingLine.m in Sources */,
+				849115E113B38C0F00A10D7B /* DirectionPoint.m in Sources */,
+				8491161413B38F4900A10D7B /* BallEngine.m in Sources */,
+				8491162013B3948D00A10D7B /* BallRegion.m in Sources */,
+				841204E513B5E782004600C3 /* Ball.m in Sources */,
+				848625E113B8E445006CE125 /* HunterView.m in Sources */,
+				848626F513B8EF78006CE125 /* HunterViewController.m in Sources */,
+				84AC4B8D13BF831E00608A6D /* Explosion.m in Sources */,
+				84A60C6613C95F2800116831 /* DialogView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84CECB3813BB98CB00A745C4 /* HunterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CECB0413BB948400A745C4 /* English */,
+			);
+			name = HunterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = hunter_Prefix.pch;
+				INFOPLIST_FILE = "hunter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = hunter;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = hunter_Prefix.pch;
+				INFOPLIST_FILE = "hunter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = hunter;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_ALTIVEC_EXTENSIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SHORT_ENUMS = NO;
+				GCC_STRICT_ALIASING = NO;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
+				GCC_USE_REGISTER_FUNCTION_CALLS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SDKROOT = iphoneos;
+				SEPARATE_SYMBOL_EDIT = NO;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_VARIANTS = normal;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_CHECK_RETURN_VALUE_OF_OPERATOR_NEW = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
